@@ -1,0 +1,40 @@
+/* * {
+  font-family: 'Lexend', sans-serif !important;
+}  
+.fa {
+  font-family: 'FontAwesome', Arial, sans-serif !important;
+} */
+.font-basker{
+  font-family: 'Libre Baskerville', serif !important;
+  font-style: italic;
+}
+.card-header label{
+  font-weight: 300 !important;
+}
+.card-footer{
+  font-weight: 300 !important;
+}
+.main{
+    height: 100vh;
+}
+button , input {
+  box-shadow: none !important;
+  outline: none !important;
+}
+button:focus , button:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+.main-parent{
+    height: 500px;;
+}
+.my-col-left{
+    background-color: purple;
+
+}
+.my-col-right{
+    height: 500px;
+    
+}
+
+
