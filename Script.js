@@ -34,7 +34,11 @@ signInWithEmailAndPassword(auth, email, password)
   .catch((error) => {
     const errorCode = error.code;
     const errorMessage = error.message;
-    console.log("incorrect passowrd/email.")
+    swal({
+      icon: "error",
+      title: "Incorrect Credentials",
+      text: "Please Check email or Password",
+    });
   });
     
 
